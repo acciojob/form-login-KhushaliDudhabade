@@ -1,6 +1,6 @@
 function getFormvalue() {
     
-    var form = document.getElementById("myForm");
+    var form = document.getElementById("form1");
 
 // Get the values of the first and last name fields
 var firstName = form.elements["fname"].value;
@@ -12,7 +12,7 @@ var submitBtn=document.getElementById("submit");
 	// 	alert("successfully subimited");
 	// }
     
-     submitBtn.addEventListener("click", () => {
-        alert(first_name+" "+last_name);
-  });
+     
+     alert(first_name+" "+last_name);
+ 
 }
